@@ -1,0 +1,172 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+p {
+    font-size: 16px;
+}
+
+h1 {
+    font-size: 32px;
+}
+
+h2 {
+    font-size: 32px;
+}
+
+h3 {
+    font-size: 24px;
+}
+
+h4 {
+    font-size: 18px;
+}
+
+a {
+    font-size: 18px;
+    text-decoration: none;
+}
+
+.limitar-secao {
+    width: 100%;
+    max-width: 1024px;
+    margin: 0 auto;
+}
+
+.topo {
+    background-color: #2f86d6;
+}
+
+.container-topo {
+    padding: 35px 0;
+    position: relative;
+}
+
+.topo-logo{
+    position: relative
+}
+
+.topo-logo p {
+    color: #fff;
+    font-weight: 600;
+}
+
+.topo-logo img {
+    width: 80px;
+}
+
+.topo-logo div {
+    position: absolute;
+    top: 0;
+    left: 95px;
+}
+
+.topo-links {
+    position: absolute;
+    top: 65px;
+    right: 0;
+}
+.topo-links a {
+    padding: 0px 10px;
+    text-decoration: none;
+    font-weight: 600;
+    color: #fff;
+}
+
+.tabela {
+    padding: 100px 0;
+}
+
+.tabela table {
+    margin: auto;
+}
+
+.itens-importantes {
+    background-color: #f1f3f7;
+    padding: 20px 40px;
+    border-bottom: 1px solid #f1f3f7;
+    border-right: 1px solid #f1f3f7;
+    text-align: center;
+}
+
+.itens-importantes p {
+    color: #a8a4a4;
+    font-size: 14px;
+    font-weight: 500;
+}
+
+.itens-importantes h2 {
+    font-size: 36px;
+}
+
+table tbody td {
+    text-align: center;
+    padding: 20px 40px;
+    border-bottom: 1px solid #f1f3f7;
+    border-right: 1px solid #f1f3f7;
+}
+
+.icones {
+    background-color: #f1f3f7;
+    font-weight: 500;
+    text-align: left;
+}
+
+.marcador-azul {
+    width: 20px;
+    height: 20px;
+    margin: auto;
+    background-color: #2f86d6;
+    border-radius: 100px;
+  }
+
+.rodape {
+    padding-top: 70px;
+    background-color: #2f86d6;
+}
+
+.rodape-1 {
+    position: relative;
+    width: 320px;
+    margin: auto
+}
+
+.rodape-1 p {
+    text-align: center;
+    color: #fff;
+    font-weight: 600;
+}
+
+.rodape-1 img {
+    width: 80px;
+}
+
+.rodape-1 div {
+    position: absolute;
+    top: 0;
+    left: 95px;
+}
+
+.paragrafo-rodape {
+    text-align: center;
+    color: #fff;
+    font-size: 16px;
+    font-weight: 600;
+    margin: 20px 0 70px;
+}
+
+.container-copyright {
+    width: 100%;
+    font-size: 18px;
+    font-weight: 600;
+    text-align: center;
+    padding: 20px 0px;
+    background-color: #fff;
+  }
+  
+  .container-copyright span {
+    color: #2f86d6;
+  }
